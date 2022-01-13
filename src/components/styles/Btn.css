@@ -1,0 +1,21 @@
+.main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cyan {
+  background-color: var(--coloCyan);
+  border: 1px solid var(--coloCyan);
+} 
+
+.purple {
+  background-color: var(--colorPurple);
+  border: 1px solid var(--colorPurple);
+} 

@@ -24,7 +24,7 @@ function Navbar() {
           </li>
         </nav>
         <div className="Navbar_btn">
-          <button className="Navbar_btn-loding">LOGIN</button>
+          <button className="Navbar_btn-login">LOGIN</button>
           <button className="Navbar_btn-started">GET STARTED</button>
         </div>
       </div>

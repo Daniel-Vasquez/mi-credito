@@ -1,0 +1,25 @@
+.FeaturesDesigned-title {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 10px 0;
+}
+
+.FeaturesDesigned-text {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.FeaturesDesigned-line {
+  margin: 15px auto;
+  width: 45px;
+  border: 1px solid #e0e0e0;
+} 
+
+@Media screen and (max-width: 600px) {
+  .FeaturesDesigned-text {
+    width: auto;
+  }
+}

@@ -9,7 +9,6 @@ import Support from './components/Support'
 import StartBusiness from './components/StartBusiness'
 import Footer from './components/Footer'
 
-
 import './App.css'
 
 function App() {

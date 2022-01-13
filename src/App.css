@@ -1,11 +1,12 @@
 :root {
   --coloCyan: #10d4d49f;
-  --colorPurple: purple;
+  --colorPurple: #ce33e9;
+  --colorGray: #515151;
 }
 
 .MainContainer {
   max-width: 1000px;
-  /* height: 100vh; */
   margin: 0 auto;
+  padding: 0 10px;
   /* border: 1px solid red; */
 }

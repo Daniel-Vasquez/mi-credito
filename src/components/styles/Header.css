@@ -1,1 +1,52 @@
-/* .Header {} */
+.Header {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  /* border: 1px solid red; */
+  padding: 40px 0;
+}
+
+.BuildApplication-title {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+.BuildApplication-title code {
+  color: var(--colorPurple);
+  font-weight: 900;
+}
+
+.BuildApplication-text {
+  color: var(--coloCyan);
+  margin: 25px 0;
+}
+
+.BuildApplication-text code {
+  color: var(--colorPurple);
+  font-weight: 900;
+}
+
+.BuildApplication-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  /* border: 1px solid green; */
+}
+
+.BuildApplication-btn img {
+  margin-left: 13px;
+} 
+
+.BuildApplication-btn-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 25px;
+  background-color: var(--colorPurple);
+  border: 1px solid var(--colorPurple);
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
