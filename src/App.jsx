@@ -6,6 +6,8 @@ import FlexiblePricing from './components/FlexiblePricing'
 import WorldExperts from './components/WorldExperts'
 import Questions from './components/Questions'
 import Support from './components/Support'
+import StartBusiness from './components/StartBusiness'
+import Footer from './components/Footer'
 
 
 import './App.css'
@@ -21,6 +23,8 @@ function App() {
       <WorldExperts/>
       <Questions/>
       <Support/>
+      <StartBusiness/>
+      <Footer/>
     </main>
   );
 }
