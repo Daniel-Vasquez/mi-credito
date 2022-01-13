@@ -4,6 +4,7 @@ import FeaturesDesigned from './components/FeaturesDesigned'
 import EasyApi from './components/EasyApi'
 import FlexiblePricing from './components/FlexiblePricing'
 import WorldExperts from './components/WorldExperts'
+import Questions from './components/Questions'
 
 
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
       <EasyApi/>
       <FlexiblePricing/>
       <WorldExperts/>
+      <Questions/>
     </main>
   );
 }
