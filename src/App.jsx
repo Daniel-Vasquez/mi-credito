@@ -5,6 +5,7 @@ import EasyApi from './components/EasyApi'
 import FlexiblePricing from './components/FlexiblePricing'
 import WorldExperts from './components/WorldExperts'
 import Questions from './components/Questions'
+import Support from './components/Support'
 
 
 import './App.css'
@@ -19,6 +20,7 @@ function App() {
       <FlexiblePricing/>
       <WorldExperts/>
       <Questions/>
+      <Support/>
     </main>
   );
 }
