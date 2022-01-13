@@ -1,6 +1,6 @@
 import Card from "./Card";
 import CardText from "./CardText";
-import "../components/styles/FeaturesDesigned.css";
+// import "../components/styles/FeaturesDesigned.css";
 
 function FeaturesDesigned() {
   return (

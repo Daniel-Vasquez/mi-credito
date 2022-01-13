@@ -21,3 +21,9 @@
   width: 45px;
   border: 1px solid #e0e0e0;
 } 
+
+@Media screen and (max-width: 600px) {
+  .CardText_text {
+    width: auto;
+  }
+}
