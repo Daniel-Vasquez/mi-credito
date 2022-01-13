@@ -1,0 +1,21 @@
+.FlexiblePricing {
+}
+
+.FlexiblePricing_time {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.FlexiblePricing_time p {
+  margin-right: 10px;
+  padding: 10px 50px;
+  cursor: pointer;
+  color: #a7a7a7;
+  border-bottom: 2px solid transparent;
+}
+
+.FlexiblePricing_time p:hover {
+  color: black;
+  border-color: var(--colorPurple);
+}

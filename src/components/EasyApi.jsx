@@ -1,17 +1,17 @@
 import code from "../Assets/code.png";
 import Btn from "./Btn";
+import CardText from "./CardText";
 import "../components/styles/EasyApi.css";
 
 function EasyApi() {
   return (
     <div className="Easy">
-      <h1 className="Easy_title">Easy to use API</h1>
-      <div className="Easy_line"></div>
-      <p className="Easy_text">
-        Guide to setup and configuration. You can present below a guide and a
+      <CardText
+        title="Easy to use API"
+        description="Guide to setup and configuration. You can present below a guide and a
         description of how your system configuration works and add some animated
-        screens
-      </p>
+        screens"
+      />
       <section className="Easy_configuration">
         <div className="Configuration_container">
           <p>Initializing JS</p>

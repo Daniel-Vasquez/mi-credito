@@ -1,0 +1,23 @@
+.CardText {
+  width: 100%;
+}
+
+.CardText_title {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 10px 0;
+}
+
+.CardText_text {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.CardText_line {
+  margin: 15px auto;
+  width: 45px;
+  border: 1px solid #e0e0e0;
+} 
