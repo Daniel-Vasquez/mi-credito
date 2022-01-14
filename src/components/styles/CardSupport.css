@@ -1,5 +1,10 @@
 .CardSupport {
   position: relative;
+  width: 100%;
+}
+
+.CardSupport_icon {
+  width: 100%;
 }
 
 .CardSupport_icon img{
@@ -47,5 +52,29 @@
 @Media screen and (max-width: 650px) {
   .CardSupport_info {
     align-items: center;
+  }
+}
+
+@Media screen and (max-width: 630px) {
+  .CardSupport_icon {
+    text-align: center;
+  }
+
+  .CardSupport_icon img {
+    position: relative;
+    top: 25px;
+    margin: 0;
+  }
+
+  .CardSupport_info {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@Media screen and (max-width: 500px) {
+  .CardSupport_info {
+    width: 90%;
+    margin: 0 auto;
   }
 }
