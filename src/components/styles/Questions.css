@@ -1,0 +1,60 @@
+.FrequentlyQuestions {
+  display: flex;
+}
+
+.Frequently {
+  padding-right: 15px;
+  width: 50%;
+}
+
+.Frequently_title {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin: 10px 0;
+}
+
+.Frequently_text {
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  color: var(--colorGray);
+}
+
+.Frequently_list-container {
+  display: flex;
+  align-items: center;
+}
+
+.Frequently_list-container p {
+  letter-spacing: -.4px;
+}
+
+.Frequently_list-container img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+@Media screen and (max-width: 800px) {
+  .FrequentlyQuestions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Frequently_title, .Frequently_text {
+    text-align: center;
+  }
+
+  .Frequently, .Questions {
+    width: 70%;
+  }
+
+  .Frequently_list {
+    border-bottom: 1px solid var(--colorGray);
+    margin-bottom: 20px;
+  }
+} 
+
+@Media screen and (max-width: 500px) {
+  .Frequently, .Questions {
+    width: 95%;
+  }
+}

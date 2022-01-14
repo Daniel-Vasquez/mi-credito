@@ -1,7 +1,10 @@
+import CardSupport from "./CardSupport"
+import './styles/Support.css'
+
 function Support() {
   return (
-    <div>
-      Support and media
+    <div className='Support'>
+      <CardSupport />
     </div>
   )
 }

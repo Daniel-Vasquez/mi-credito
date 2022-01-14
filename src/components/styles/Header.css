@@ -1,7 +1,6 @@
 .Header {
   display: grid;
   grid-template: 1fr / 1fr 1fr;
-  /* border: 1px solid red; */
   padding: 40px 0;
 }
 
@@ -17,7 +16,7 @@
 }
 
 .BuildApplication-text {
-  color: var(--coloCyan);
+  color: var(--colorCyan);
   margin: 25px 0;
 }
 
@@ -30,7 +29,6 @@
   display: flex;
   justify-content: space-between;
   width: 330px;
-  /* border: 1px solid green; */
 }
 
 .BuildApplication-btn img {

@@ -1,0 +1,28 @@
+.CardQuestions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 55px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.CardQuestions_title {
+  background-color: transparent;
+  border-color: transparent;
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.CardQuestions:hover {
+  background-color: var(--colorCyan);
+}
+
+.CardQuestions:hover .CardQuestions_title {
+  color: white;
+}

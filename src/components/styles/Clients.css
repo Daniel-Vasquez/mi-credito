@@ -1,0 +1,11 @@
+.Clients {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.Clients .Clients_img {
+  padding: 5px;
+  margin: 15px auto;
+}

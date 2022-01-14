@@ -7,7 +7,7 @@ function EasyApi() {
   return (
     <div className="Easy">
       <CardText
-        title="Easy to use API"
+        title={<h1 className="CardText_text">Easy to use API</h1>}
         description="Guide to setup and configuration. You can present below a guide and a
         description of how your system configuration works and add some animated
         screens"

@@ -6,6 +6,7 @@ import FlexiblePricing from './components/FlexiblePricing'
 import WorldExperts from './components/WorldExperts'
 import Questions from './components/Questions'
 import Support from './components/Support'
+import Clients from './components/Clients'
 import StartBusiness from './components/StartBusiness'
 import Footer from './components/Footer'
 
@@ -22,6 +23,7 @@ function App() {
       <WorldExperts/>
       <Questions/>
       <Support/>
+      <Clients />
       <StartBusiness/>
       <Footer/>
     </main>

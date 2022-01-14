@@ -1,0 +1,60 @@
+.CardMembershipContainer {
+  text-align: center;
+}
+
+.CardMembership {
+  display: inline-block;
+  padding: 30px 10px;
+  transition: all .3s;
+}
+
+.CardMembership_title {
+  text-align: center;
+}
+
+.CardMembership_pricer {
+  font-weight: 900;
+  text-align: center;
+}
+
+.CardMembership_pricer code {
+  font-size: 45px;
+}
+
+.CardMembership_details {
+  padding: 0;
+
+}
+
+.CardMembership_details-li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.CardMembership_details-li img {
+  margin-right: 10px;
+} 
+
+
+.textDecoration {
+  text-decoration: line-through;
+  color: var(--colorGray);
+  margin-left: 25px;
+}
+
+.CardMembership button {
+  margin: 0 auto;
+}
+
+.CardMembership:hover {
+  background-color: var(--colorPurple);
+}
+
+.CardMembership:hover, .CardMembership_title:hover, .CardMembership_pricer:hover, .CardMembership_details-li:hover, .CardMembership:hover .textDecoration {
+  color: white;
+}
+
+.CardMembership:hover .main-btn {
+  background-color: var(--colorCyan);
+  color: white;
+}

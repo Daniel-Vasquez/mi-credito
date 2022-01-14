@@ -1,5 +1,5 @@
 :root {
-  --coloCyan: #10d4d49f;
+  --colorCyan: #0ee0e0;
   --colorPurple: #ce33e9;
   --colorGray: #515151;
 }
@@ -8,5 +8,4 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
-  /* border: 1px solid red; */
 }

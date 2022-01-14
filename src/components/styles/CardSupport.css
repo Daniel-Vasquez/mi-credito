@@ -1,0 +1,51 @@
+.CardSupport {
+  position: relative;
+}
+
+.CardSupport_icon img{
+  margin-left: 25px;
+  position: absolute;
+  top: -40px;
+}
+
+.CardSupport_info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 25px;
+  transition: all .2s;
+}
+
+.CardSupport_info:hover {
+  background-color: var(--colorCyan);
+}
+
+.CardSupport_info-title {
+  font-size: 30px;
+  margin: 15px 0;
+  letter-spacing: -1.2px;
+}
+
+.CardSupport_info-text {
+  line-height: 1.5;
+  color: var(--colorGray)
+}
+
+.CardSupport_info .main-btn {
+  width: 190px;
+}
+
+.CardSupport_info:hover .CardSupport_info-title, .CardSupport_info:hover .CardSupport_info-text {
+  color: white;
+}
+
+.CardSupport_info:hover .main-btn {
+  background-color: var(--colorCyan);
+  border-color: white;
+}
+
+@Media screen and (max-width: 650px) {
+  .CardSupport_info {
+    align-items: center;
+  }
+}

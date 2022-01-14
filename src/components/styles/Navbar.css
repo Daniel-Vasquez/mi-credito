@@ -4,7 +4,6 @@
   align-items: center;
   width: 100%;
   padding: 10px 0;
-  /* border: 1px solid blue; */
 }
 
 .Navbar_container {
@@ -16,7 +15,6 @@
   display: flex;
   justify-content: space-evenly;
   width: 500px;
-  /* border: 1px solid yellow; */
 }
 
 .Navbar_nav li {
@@ -31,7 +29,7 @@
 }
 
 .Navbar_nav li a:hover {
-  color: var(--coloCyan);
+  color: var(--colorCyan);
 }
 
 .Navbar_btn {
@@ -42,9 +40,9 @@
 
 .Navbar_btn-login {
   padding: 7px 12px;
-  border: 1px solid var(--coloCyan);
+  border: 1px solid var(--colorCyan);
   background-color: transparent;
-  color: var(--coloCyan);
+  color: var(--colorCyan);
   border-radius: 20px;
   cursor: pointer;
   height: 40px;
@@ -66,7 +64,6 @@
   align-items: center;
   width: 150px;
   height: 100%;
-  /* border: 1px solid green; */
 }
 
 .Navbar_img img {

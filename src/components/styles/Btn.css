@@ -11,11 +11,19 @@
 }
 
 .cyan {
-  background-color: var(--coloCyan);
-  border: 1px solid var(--coloCyan);
+  background-color: var(--colorCyan);
+  border: 1px solid var(--colorCyan);
 } 
 
 .purple {
   background-color: var(--colorPurple);
   border: 1px solid var(--colorPurple);
 } 
+
+.white {
+  background-color: white;
+  color: var(--colorCyan);
+  border: 1px solid var(--colorCyan);
+  padding: 13px 50px;
+  font-weight: 600;
+}

@@ -3,11 +3,6 @@
   grid-template: auto / repeat(3, 1fr);
   gap: 50px 30px;
   margin: 60px 0;
-  /* border: 1px solid green; */
-}
-
-.Card_element {
-  /* border: 1px solid blue; */
 }
 
 .Card_element-title {
