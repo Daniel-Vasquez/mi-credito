@@ -51,7 +51,6 @@ function Form() {
   const [annualRate, setAnnualRate] = useState(PERCENTAGE_ANNUAL_RATE);
   const [months, setMonths] = useState(12);
 
-  console.log(months);
   return (
     <div className="FormContainer">
       <h2 className="FormContainer_text">SIMULADOR DE CRÉDITO</h2>

@@ -18,7 +18,7 @@ function EasyApi() {
           <p>Configuration CSS</p>
           <p>Security Levels API</p>
         </div>
-        <img className="Configuration_container-img" src={code} alt="Code" />
+        <img className="Configuration_container-img" src={code} alt="Code" loading="lazy"/>
         <div className="Configuration_container-btn">
           <div className="Container-btn">
             <Btn title="Get THE CODE" color="cyan" />

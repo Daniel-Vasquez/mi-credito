@@ -20,7 +20,7 @@ function Header() {
         </p>
         <div className="BuildApplication-btn">
           <Btn color= 'cyan' title="WATCH DEMO">
-            <img src={btn_play} alt="icon" />
+            <img src={btn_play} alt="icon" loading="lazy"/>
           </Btn>
           <Btn color='purple'title='START NOW'/>
         </div>

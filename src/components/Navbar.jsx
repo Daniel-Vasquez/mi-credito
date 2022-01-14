@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar_img">
-        <img src={Lateral} alt="Icon" />
+        <img src={Lateral} alt="Icon" loading="lazy"/>
       </div>
       <div className="Navbar_container">
         <nav className="Navbar_nav">

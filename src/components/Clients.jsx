@@ -8,11 +8,11 @@ import templateX from '../Assets/clients/TemplateX.png'
 const Clients = () => {
   return (
     <div className='Clients'>
-      <img className='Clients_img' src={sindevo} alt="" />
-      <img className='Clients_img' src={mobilex} alt="" />
-      <img className='Clients_img' src={lateral} alt="" />
-      <img className='Clients_img' src={blixMobile} alt="" />
-      <img className='Clients_img' src={templateX} alt="" />
+      <img className='Clients_img' src={sindevo} alt="Icon sindevo" loading="lazy"/>
+      <img className='Clients_img' src={mobilex} alt="Icon mobilex" loading="lazy"/>
+      <img className='Clients_img' src={lateral} alt="Icon lateral" loading="lazy"/>
+      <img className='Clients_img' src={blixMobile} alt="Icon blixMobile" loading="lazy"/>
+      <img className='Clients_img' src={templateX} alt="Icon templateX" loading="lazy"/>
     </div>
   )
 }

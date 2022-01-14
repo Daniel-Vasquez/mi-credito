@@ -14,15 +14,15 @@ function Questions() {
         </p>
         <div className="Frequently_list">
           <div className="Frequently_list-container">
-            <img src={check} alt="" />
+            <img src={check} alt="Icon check" loading="lazy"/>
             <p>Simple and Smart HTML code</p>
           </div>
           <div className="Frequently_list-container">
-            <img src={check} alt="" />
+            <img src={check} alt="Icon check" loading="lazy"/>
             <p>Works reintegrated in any part of the layout</p>
           </div>
           <div className="Frequently_list-container">
-            <img src={check} alt="" />
+            <img src={check} alt="Icon check" loading="lazy"/>
             <p>Reuse the elements from one design to another</p>
           </div>
         </div>

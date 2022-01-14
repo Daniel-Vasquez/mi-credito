@@ -9,7 +9,7 @@ const CardSupport = () => {
         return (
           <div key={element.title} className='CardSupport'>
             <section className='CardSupport_icon'>
-              <img src={element.img} alt={element.title} />
+              <img src={element.img} alt={element.title} loading="lazy"/>
             </section>
             <section className='CardSupport_info'>
               <h2 className='CardSupport_info-title'>{element.title}</h2>

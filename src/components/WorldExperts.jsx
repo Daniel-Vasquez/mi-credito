@@ -15,22 +15,22 @@ function WorldExperts() {
       />
       <div className="WorldExperts_users">
         <div className="Users_img" style={{ top: '30%' }}>
-          <img src={avatar1} alt="" />
+          <img src={avatar1} alt="Icon avatar1" loading="lazy"/>
         </div>
         <div className="Users_img" style={{ top: '10%', left: '15%' }}>
-          <img src={avatar2} alt="" />
+          <img src={avatar2} alt="Icon avatar2" loading="lazy"/>
         </div>
         <div className="Users_img" style={{ top: '25%', left: '40%' }}>
-          <img src={avatar3} alt="" />
+          <img src={avatar3} alt="Icon avatar3" loading="lazy"/>
         </div>
         <div className="Users_img" style={{ top: '55%', left: '60%' }}>
-          <img src={avatar4} alt="" />
+          <img src={avatar4} alt="Icon avatar4" loading="lazy"/>
         </div>
         <div className="Users_img" style={{ top: '65%', left: '20%' }}>
-          <img src={avatar5} alt="" />
+          <img src={avatar5} alt="Icon avatar5" loading="lazy"/>
         </div>
         <div className="Users_img" style={{ top: '15%', left: '80%' }}>
-          <img src={avatar6} alt="" />
+          <img src={avatar6} alt="Icon avatar6" loading="lazy"/>
         </div>
 
       </div>

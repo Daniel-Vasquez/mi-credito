@@ -15,7 +15,7 @@ const CardMembership = () => {
             <ul className='CardMembership_details'>
               {card.details.map((detail) =>
               <div key={detail.id}>
-                <li className={`CardMembership_details-li ${!detail.active && 'textDecoration'}`}> {detail.active && <img src={checked} alt='Icon checked'/>} {detail.description}</li>
+                <li className={`CardMembership_details-li ${!detail.active && 'textDecoration'}`}> {detail.active && <img src={checked} alt='Icon checked' loading="lazy"/>} {detail.description}</li>
               </div>
               )}
             </ul>

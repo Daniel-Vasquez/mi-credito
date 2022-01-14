@@ -13,9 +13,9 @@ function Footer() {
         <p className='Footer_duty-text'> Copryright c 2018 LATERAL.</p>
         <p className='Footer_duty-text'>All Rights Reserved. Proudly mande in EU.</p>
         <div className='Footer_duty-icons'>
-          <img src={twitter} alt="" />
-          <img src={facebook} alt="" />
-          <img src={linkedin} alt="" />
+          <img src={twitter} alt="Icon twitter" loading="lazy"/>
+          <img src={facebook} alt="Icon facebook" loading="lazy"/>
+          <img src={linkedin} alt="Icon linkedin" loading="lazy"/>
         </div>
       </section>
       <section className='Footer_contact'>
