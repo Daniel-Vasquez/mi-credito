@@ -1,4 +1,4 @@
-import Form from "../components/Form";
+import CreditSimulator from "./CreditSimulator";
 import btn_play from "../Assets/btn-play.png";
 import Btn from "./Btn";
 import "./styles/Header.css";
@@ -26,7 +26,7 @@ function Header() {
         </div>
       </section>
       <section className="Form">
-        <Form />
+        <CreditSimulator />
       </section>
     </header>
   );
