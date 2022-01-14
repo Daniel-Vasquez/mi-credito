@@ -11,7 +11,7 @@ function WorldExperts() {
   return (
     <div className="WorldExperts">
       <CardText
-        title={<h1 className="CardText_title">Trusted by World experts</h1>}
+        title={<h1 className="CardText_title">Trusted by world experts</h1>}
       />
       <div className="WorldExperts_users">
         <div className="Users_img" style={{ top: '30%' }}>

@@ -100,7 +100,7 @@ function Form() {
       </div>
       <section className="DetailsContainer">
         <div className="DetailsContainer_payMonth">
-          <p className="DetailsContainer_payMonth-text">Pago Mensual:</p>
+          <p className="DetailsContainer_payMonth-text">Pago mensual</p>
           <span className="DetailsContainer_payMonth-span">
             {formatMoney(
               calculateMonthlyPayment(desiredAmount, months, annualRate / 100)
@@ -109,26 +109,26 @@ function Form() {
         </div>
         <div className="DetailsContainer_commission">
           <p className="DetailsContainer_commission-text">
-            Comisión de apertura:{" "}
+            Comisión de apertura
           </p>
           <span className="DetailsContainer_commission-span">
             {formatMoney(OPENING_COMMISSION)}
           </span>
         </div>
         <div className="DetailsContainer_neto">
-          <p className="DetailsContainer_neto-text">Monto neto Depositado:</p>
+          <p className="DetailsContainer_neto-text">Monto neto Depositado</p>
           <span className="DetailsContainer_neto-span">
             {formatMoney(NetAmountDeposited(desiredAmount, months))}
           </span>
         </div>
         <div className="DetailsContainer_total">
-          <p className="DetailsContainer_total-text">Total pagado:</p>
+          <p className="DetailsContainer_total-text">Total pagado</p>
           <span className="DetailsContainer_total-span">
             {formatMoney(totalPaid(desiredAmount, annualRate / 100))}
           </span>
         </div>
         <div className="DetailsContainer_cat">
-          <p className="DetailsContainer_cat-text">CAT: </p>
+          <p className="DetailsContainer_cat-text">CAT</p>
           <span className="DetailsContainer_cat-span">{CAT}%</span>
         </div>
         <Btn

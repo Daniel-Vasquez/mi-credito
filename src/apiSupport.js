@@ -1,6 +1,6 @@
 const apiSupport = [
   {
-    title: 'Help & Supprt',
+    title: 'Help & Support',
     text: 'Our 24/7 support team is here to help you and make sure our product is up to date.',
     correo: 'support@supportemail.com',
     img: './support-64.png'

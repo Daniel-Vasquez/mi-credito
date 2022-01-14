@@ -11,7 +11,7 @@ function Footer() {
       <section className='Footer_duty'>
         <p className='Footer_duty-title'>LATERAL</p>
         <p className='Footer_duty-text'> Copryright c 2018 LATERAL.</p>
-        <p className='Footer_duty-text'>All Rights Reserved. Proudly mande in EU.</p>
+        <p className='Footer_duty-text'>All Rights Reserved. Proudly made in EU.</p>
         <div className='Footer_duty-icons'>
           <img src={twitter} alt="Icon twitter" loading="lazy"/>
           <img src={facebook} alt="Icon facebook" loading="lazy"/>
@@ -20,7 +20,7 @@ function Footer() {
       </section>
       <section className='Footer_contact'>
         <div>
-          <p className='Footer_contact-title'>Coompany</p>
+          <p className='Footer_contact-title'>Company</p>
           <ul className='Footer_contact-ul'>
             <li>About</li>
             <li>Carrers</li>

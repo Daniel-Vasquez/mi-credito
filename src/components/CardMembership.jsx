@@ -11,7 +11,7 @@ const CardMembership = () => {
         return (
           <div className='CardMembership' key={card.title}>
             <h1 className='CardMembership_title'>{card.title}</h1>
-            <p className='CardMembership_pricer'>$<code>{card.price}</code> /mount</p>
+            <p className='CardMembership_pricer'>$<code>{card.price}</code> /month</p>
             <ul className='CardMembership_details'>
               {card.details.map((detail) =>
               <div key={detail.id}>
@@ -19,7 +19,7 @@ const CardMembership = () => {
               </div>
               )}
             </ul>
-            <Btn title="Sing up" color='white'/>
+            <Btn title="Sign up" color='white'/>
           </div>
         )
       })}
