@@ -1,5 +1,4 @@
 import "./styles/CardQuestions.css";
-import {Link} from 'react-router-dom'
 
 const CardQuestions = (props) => {
   return (
