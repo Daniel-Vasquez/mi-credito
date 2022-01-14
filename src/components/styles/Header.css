@@ -48,3 +48,31 @@
   font-weight: 500;
   font-size: 12px;
 }
+
+@Media screen and (max-width: 750px) {
+  .Header {
+    grid-template: .3fr 1fr / 1fr;
+  }
+
+  .BuildApplication {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .BuildApplication-btn {
+    margin: 0 auto;
+  }
+
+  .Form {
+    text-align: center;
+  }
+  
+  .BuildApplication-btn {
+    width: 160px;
+    flex-direction: column;
+  }
+
+  .BuildApplication-btn .main-btn {
+    margin-top: 10px;
+  }
+}

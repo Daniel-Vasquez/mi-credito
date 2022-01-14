@@ -9,12 +9,14 @@ import Support from './components/Support'
 import Clients from './components/Clients'
 import StartBusiness from './components/StartBusiness'
 import Footer from './components/Footer'
+import imgMain from './Assets/bg.jpg'
 
 import './App.css'
 
 function App() {
   return (
     <main className='MainContainer'>
+      <img className='MainContainer_img'src={imgMain} alt="Background" />
       <Navbar/>
       <Header/>
       <FeaturesDesigned/>
