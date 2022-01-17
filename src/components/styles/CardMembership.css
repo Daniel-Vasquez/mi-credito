@@ -48,6 +48,7 @@
 
 .CardMembership:hover {
   background-color: var(--colorPurple);
+  transform: scale(1.07);
 }
 
 .CardMembership:hover, .CardMembership_title:hover, .CardMembership_pricer:hover, .CardMembership_details-li:hover, .CardMembership:hover .textDecoration {

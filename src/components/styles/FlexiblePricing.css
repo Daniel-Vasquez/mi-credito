@@ -2,17 +2,37 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 20px;
 }
 
-.FlexiblePricing_time p {
+.FlexiblePricing_time button {
   margin-right: 10px;
   padding: 10px 50px;
   cursor: pointer;
   color: #a7a7a7;
-  border-bottom: 2px solid transparent;
+  border: 2px solid transparent;
+  background-color: transparent;
 }
 
-.FlexiblePricing_time p:hover {
+.FlexiblePricing_time button:focus {
   color: black;
-  border-color: var(--colorPurple);
+  border-bottom:2px solid var(--colorPurple);
+}
+
+.FlexiblePricing_time button:hover {
+  color: black;
+  border-bottom:2px solid var(--colorPurple);
+}
+
+@Media screen and (max-width: 450px) {
+  .FlexiblePricing_time {
+    flex-direction: column;
+    width: auto;
+    margin: 15px 0;
+  }
+
+  .FlexiblePricing_time button {
+    width: 150px;
+    margin: 0 auto;
+  }
 }

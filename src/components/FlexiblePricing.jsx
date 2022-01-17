@@ -12,8 +12,8 @@ function FlexiblePricing() {
         your SaaS business."
       />
       <div className="FlexiblePricing_time">
-        <p className="FlexiblePricing_time-monthly">Monthly</p>
-        <p className="FlexiblePricing_time-yearly">Yearly</p>
+        <button className="FlexiblePricing_time-monthly">Monthly</button>
+        <button className="FlexiblePricing_time-yearly">Yearly</button>
       </div>
       <CardMembership />
     </div>
